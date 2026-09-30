@@ -1,11 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="40" viewBox="0 0 800 40">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="50" viewBox="0 0 1000 50">
   <defs>
     <linearGradient id="fade" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#3d1444" stop-opacity="0" />
-      <stop offset="50%" stop-color="#b81818" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#b81818" stop-opacity="1" />
       <stop offset="100%" stop-color="#3d1444" stop-opacity="0" />
     </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <line x1="0" y1="20" x2="800" y2="20" stroke="url(#fade)" stroke-width="1" />
-  <text x="400" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#6b0010">✠</text>
+
+  <!-- центральная линия -->
+  <line x1="0" y1="25" x2="450" y2="25" stroke="url(#fade)" stroke-width="1.5" />
+  <line x1="550" y1="25" x2="1000" y2="25" stroke="url(#fade)" stroke-width="1.5" />
+
+  <!-- ромб-центр -->
+  <polygon points="500,15 515,25 500,35 485,25" fill="none" stroke="#b81818" stroke-width="1.5" filter="url(#glow)" />
+  <circle cx="500" cy="25" r="2" fill="#b81818" filter="url(#glow)" />
+
+  <!-- кресты по бокам -->
+  <text x="460" y="31" text-anchor="middle" font-family="Georgia,serif" font-size="20" fill="#6b0010" filter="url(#glow)">✠</text>
+  <text x="540" y="31" text-anchor="middle" font-family="Georgia,serif" font-size="20" fill="#6b0010" filter="url(#glow)">✠</text>
 </svg>
