@@ -48,12 +48,12 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=quasraine&show_icons=true&theme=dark&bg_color=0d0610&title_color=b81818&text_color=c9bcc4&icon_color=b81818&border_color=3d1444&hide_border=false" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=quasraine&layout=compact&theme=dark&bg_color=0d0610&title_color=b81818&text_color=c9bcc4&border_color=3d1444" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=m0urnluv&show_icons=true&theme=dark&bg_color=0d0610&title_color=b81818&text_color=c9bcc4&icon_color=b81818&border_color=3d1444&hide_border=false" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m0urnluv&layout=compact&theme=dark&bg_color=0d0610&title_color=b81818&text_color=c9bcc4&border_color=3d1444" />
 
 <br />
 
-<img src="https://streak-stats.demolab.com?user=quasraine&theme=dark&background=0d0610&border=3d1444&stroke=b81818&ring=b81818&fire=b81818&currStreakLabel=b81818&sideLabels=c9bcc4&dates=7a6a72" />
+<img src="https://streak-stats.demolab.com?user=m0urnluv&theme=dark&background=0d0610&border=3d1444&stroke=b81818&ring=b81818&fire=b81818&currStreakLabel=b81818&sideLabels=c9bcc4&dates=7a6a72" />
 
 <br />
 
@@ -118,6 +118,6 @@ _Что сейчас собирается в темноте._
   <p><sub>— вдохновлено «Конструктор» · Тёмный Принц</sub></p>
 </blockquote>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030005,100:3d1444&height=120&section=footer&text=©%202026%20Quasraine%20·%20Architected%20in%20the%20dark&fontSize=12&fontColor=7a6a72" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030005,100:3d1444&height=120&section=footer&text=©%202026%m0urnluv%20·%20Architected%20in%20the%20dark&fontSize=12&fontColor=7a6a72" width="100%" />
 
 </div>
